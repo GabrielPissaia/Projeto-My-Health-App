@@ -1,0 +1,138 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    display: 'flex',
+    position: 'relative',
+    height: '100%',
+    fontFamily: 'Averia Libre',
+    backgroundColor: '#ADD4D0',
+    paddingTop: 100,
+    paddingBottom: 100,
+    fontSize: 38,
+  },
+  header: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    padding: 10,
+    backgroundColor: '#C1E7E3',
+    display: 'flex',
+    alignItems: 'center',
+    flexDirection: 'row',
+  },
+  titleHeader: {
+    color: '#419ED7',
+    fontFamily: 'Averia Libre',
+    fontSize: 38,
+  },
+  inputContainer: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  inputSection: {
+    position: 'relative',
+    flexDirection: 'row',
+    display: 'flex',
+    padding: 10,
+    paddingHorizontal: 20,
+    justifyContent: 'center',
+  },
+  inputSectionRadio: {
+    position: 'relative',
+    height: 140,
+    flexDirection: 'row',
+    display: 'flex',
+    padding: 10,
+    paddingHorizontal: 20,
+    justifyContent: 'center',
+  },
+  labelBox: {
+    paddingRight: 10,
+    width: '35%',
+    display: 'flex',
+    alignItems: 'flex-end',
+    justifyContent: 'center',
+  },
+  label: {
+    fontSize: 16,
+  },
+  inputBox: {
+    width: '65%',
+  },
+  inputBoxDate: {
+    flexDirection: 'row',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '65%',
+  },
+  input: {
+    paddingHorizontal: 10,
+    height: 41,
+    backgroundColor: 'white',
+    color: '#419ED7',
+  },
+  inputDate: {
+    paddingHorizontal: 10,
+    width: 158,
+    height: 41,
+    backgroundColor: 'white',
+    color: '#419ED7',
+  },
+  dateBox: {
+    width: 70,
+    height: 41,
+    backgroundColor: 'white',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  icon: {
+    fontSize: 20,
+  },
+  inputDateButton: {
+    width: 50,
+    height: 41,
+  },
+  buttonContainer: {
+    width: '100%',
+    position: 'absolute',
+    bottom: 0,
+    paddingBottom: 30,
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  buttonBox: {
+    fontSize: 18,
+    width: '40%',
+  },
+  button: {
+    width: '100%',
+    backgroundColor: 'red',
+  },
+  radioBox: {
+    width: 150,
+    margin: -3,
+    flexDirection: 'row',
+    display: 'flex',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  radio: {
+    backgroundColor: '#419ED7',
+    color: 'white',
+  },
+  error: {
+    position: 'absolute',
+    bottom: -6,
+    left: 130,
+    color: 'red',
+    zIndex: 99,
+  },  
+});
+export {styles};
